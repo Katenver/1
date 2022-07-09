@@ -37,7 +37,7 @@ body {
 .scope-list,
 .team-list,
 .filter-list,
-.projects-list{
+.projects-list {
   list-style: none;
 }
 .header-nav {
@@ -174,24 +174,23 @@ footer {
   cursor: pointer;
   background-color: var(--background-clr-team);
 }
-.project-name{
-    font style: Bold;
-    font size: 18px;
-    line height: 2;
-    letter spacing: 6%
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
-.project-text{
-    font style: Regular;
-     font size: 16px;
-     line height: 1.88; 
-    color: var(--txt-cl);
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--txt-cl);
 }
-.main-btn{
-    background: var(--accent-txt);
-    color: var(--btn-txt-cl);
+.main-btn {
+  background: var(--accent-txt);
+  color: var(--btn-txt-cl);
 }
 .filter-btn:hover,
 .filter-btn:focus {
-background: var(--accent-txt);
-    color: var(--btn-txt-cl);
+  background: var(--accent-txt);
+  color: var(--btn-txt-cl);
 }
